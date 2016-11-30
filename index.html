@@ -12,22 +12,29 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Grammy Nominations</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
+
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="John Doe" required><br> E-mail:
+            <input type="email" name="email" placeholder="johndoe123@gmail.com" required>
 
             <!--add your own inputs below-->
 
-
-
-
-
-
-
+            <br> Best New Artist:
+            <select name="Best New Artist">
+                <option value="Chance the rapper" selected> Chance The Rapper</option>
+                <option value="Zara Larson"> Zara Larson</option>
+                <option value="Jon Bellion"> Jon Bellion</option>
+            </select> <br>Album of the Year<br>
+            <input type="radio" name="album" value="Life of Pablo">Life of Pablo
+            <input type="radio" name="album" value="Coloring Book">Coloring Book
+            <input type="radio" name="album" value="Lemonade">Lemonade
+            <br> Explain your choice:<br>
+            <textarea name="explain"></textarea>
+            <br>
 
             <!--add your own inputs above-->
 
